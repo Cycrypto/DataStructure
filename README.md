@@ -1,6 +1,6 @@
 # DataStructure
 
-
+![HitCount](http://hits.dwyl.com/Cycrypto/DataStructure/react-native-image-modal.svg)
 
 #### Index:computer:
 

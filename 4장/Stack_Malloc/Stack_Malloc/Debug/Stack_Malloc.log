@@ -1,0 +1,16 @@
+﻿  malloc_structure.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(46,19): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(46,19): warning C4024: 'init_stack': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(48,13): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(48,13): warning C4024: 'push': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(49,13): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(49,13): warning C4024: 'push': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(50,13): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(50,13): warning C4024: 'push': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(52,28): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(52,28): warning C4024: 'pop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(53,28): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(53,28): warning C4024: 'pop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(54,28): warning C4047: 'function': 'StackType *' differs in levels of indirection from 'StackType **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Stack_Malloc\malloc_structure.c(54,28): warning C4024: 'pop': different types for formal and actual parameter 1
+  Stack_Malloc.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack_Malloc\Debug\Stack_Malloc.exe
