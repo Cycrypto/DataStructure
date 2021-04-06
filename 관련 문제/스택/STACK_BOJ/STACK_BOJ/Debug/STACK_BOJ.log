@@ -1,0 +1,5 @@
+﻿  10828.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\STACK_BOJ\10828.c(15,54): warning C4047: '=': 'element *' differs in levels of indirection from 'element'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\STACK_BOJ\10828.c(22,65): warning C4047: '=': 'element *' differs in levels of indirection from 'element'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\STACK_BOJ\10828.c(28,17): warning C4013: 'stack_empty' undefined; assuming extern returning int
+  STACK_BOJ.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\Debug\STACK_BOJ.exe
