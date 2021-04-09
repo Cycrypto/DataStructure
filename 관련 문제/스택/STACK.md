@@ -1,5 +1,11 @@
 ## STACK
 
+
+
+
+
+#### OVERVIEW
+
 ---
 
 4장 스택과 관련한 boj 문제풀이를 업로드 할 공간.
@@ -12,6 +18,7 @@
 
 * [10828](#10828)
 * [9012](#9012)
+* [1918](#1918)
 
 
 
@@ -231,3 +238,17 @@ int main(void) {
 > :bulb: 이후 Check라는 함수를 만들어 체크함.
 
 ![success!](https://github.com/Cycrypto/DataStructure/blob/master/IMG/boj_stack_success2.JPG)
+
+
+
+#### 1918
+
+> 첫째 줄에 중위 표기식이 주어진다. 단 이 수식의 피연산자는 A~Z의 문자로 이루어지며 수식에서 한 번씩만 등장한다. 그리고 -A+B와 같이 -가 가장 앞에 오거나 AB와 같이 *가 생략되는 등의 수식은 주어지지 않는다. 표기식은 알파벳 대문자와 +, -, *, /, (, )로만 이루어져 있으며, 길이는 100을 넘지 않는다. 
+
+> 첫째 줄에 후위 표기식으로 바뀐 식을 출력하시오
+
+
+
+:bulb: 내용이 많아 따로 md로 저장한다.
+
+[md 바로가기](https://github.com/Cycrypto/DataStructure/tree/master/%EA%B4%80%EB%A0%A8%20%EB%AC%B8%EC%A0%9C/%EC%8A%A4%ED%83%9D/STACK-POSTFIX.md)

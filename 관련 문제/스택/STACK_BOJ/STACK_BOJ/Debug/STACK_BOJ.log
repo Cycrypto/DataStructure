@@ -1,5 +1,3 @@
 ﻿  1918.c
 C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\STACK_BOJ\1918.c(66,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\STACK_BOJ\1918.c(83,22): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\STACK_BOJ\1918.c(83,22): warning C4024: 'strcmp': different types for formal and actual parameter 1
   STACK_BOJ.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\스택\STACK_BOJ\Debug\STACK_BOJ.exe

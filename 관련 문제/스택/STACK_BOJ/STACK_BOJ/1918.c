@@ -61,6 +61,7 @@ int priority(char* ch) {
 }
 
 void calculate(StackType* s, char* infix) {	//infix : 입력값, postfix : 변환값
+	char *c;
 
 	for (int i = 0; i < strlen(infix); i++) {
 		switch (infix[i]) {
@@ -77,8 +78,10 @@ void calculate(StackType* s, char* infix) {	//infix : 입력값, postfix : 변환값
 			break;
 
 		case ')':	// #issue
-			while (!strcmp(s->data[s->top], "(")) {
+			c = &(s->data[s->top]);
+			while (*c != *"(") {
 				printf("%c", pop(&(*s)));
+				c = &(s->data[s->top]);
 			}
 			pop(&(*s));
 			break;
