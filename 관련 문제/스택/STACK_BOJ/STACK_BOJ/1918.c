@@ -29,7 +29,7 @@ int is_empty(StackType* s) {
 void push(StackType* s, element* item) {
 	if (is_full(s)) {
 		s->size *= 2;
-		s->data = (element*)realloc(s->data, sizeof(element) * s->size);
+		s->data = (element *)realloc(s->data, sizeof(element) * s->size);
 	}
 	s->data[++(s->top)] = *item;
 }

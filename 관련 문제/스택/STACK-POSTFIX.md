@@ -210,6 +210,5 @@ void calculate(StackType* s, char* infix);
 
 > (a/d\*e-b\*c)+f/g-(h-i)*j+k-l\*(m-n)+o\*p
 
-![](C:\Users\jh01l\AppData\Roaming\Typora\typora-user-images\postfix_result.JPG)
+![success!](https://github.com/Cycrypto/DataStructure/blob/master/IMG/boj_stack_success4.JPG)
 
-![](C:\Users\jh01l\AppData\Roaming\Typora\typora-user-images\boj_stack_success3.JPG)
