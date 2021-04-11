@@ -210,5 +210,5 @@ void calculate(StackType* s, char* infix);
 
 > (a/d\*e-b\*c)+f/g-(h-i)*j+k-l\*(m-n)+o\*p
 
-![success!](https://github.com/Cycrypto/DataStructure/blob/master/IMG/boj_stack_success4.JPG)
+![success!](https://github.com/Cycrypto/DataStructure/blob/master/IMG/boj_stack_success3.JPG)
 
