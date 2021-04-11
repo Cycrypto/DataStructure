@@ -1,0 +1,3 @@
+﻿  Queue.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\5장\QUEUE\QUEUE\Queue.c(31,37): warning C4098: 'enqueue': 'void' function returning a value
+  QUEUE.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\5장\QUEUE\Debug\QUEUE.exe
