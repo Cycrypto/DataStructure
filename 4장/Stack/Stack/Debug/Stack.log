@@ -1,1 +1,3 @@
-﻿  Stack.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack\Debug\Stack.exe
+﻿  postfix.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack\Stack\postfix.c(51,7): warning C4101: 'symbol': unreferenced local variable
+  Stack.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\4장\Stack\Debug\Stack.exe

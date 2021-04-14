@@ -21,5 +21,8 @@
     <ClCompile Include="Stack_Answer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="postfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
