@@ -21,5 +21,11 @@
     <ClCompile Include="linear_Queue_Answer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Circular_Queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circular_queue_Answer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

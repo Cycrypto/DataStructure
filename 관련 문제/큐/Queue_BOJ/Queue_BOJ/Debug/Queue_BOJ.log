@@ -1,2 +1,2 @@
-﻿  10845.c
-  Queue_BOJ.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\큐\Queue_BOJ\Debug\Queue_BOJ.exe
+﻿  1158.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\관련 문제\큐\Queue_BOJ\Queue_BOJ\1158.c(8,25): error C2148: total size of array must not exceed 0x7fffffff bytes
