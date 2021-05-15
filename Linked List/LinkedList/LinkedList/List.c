@@ -1,61 +1,54 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define MAX 100
-
 #include <stdio.h>
 #include <stdlib.h>
-typedef int element;
-typedef struct Node{
-	element data;
-	struct Node* link;	//다음 요소를 가르킬 포인터
-}Node;
+#include <string.h>
 
-Node* insert(Node* list, Node* pos, int item);
-Node* insert_last(Node* list, int item);
-Node* insert_first(Node* list, int head);
-Node* delete(Node* list, int pos);
-Node* get_entry(Node* list, int pos);
-void print_list(Node* list);
+typedef struct _node{
+	char Name[20];
+	int Age;
+	int height;
+	struct _node* next;
+}Node;
 
 int main(void) {
 	Node* head = NULL;
-	int input = 0;
-	int option = 0;
-	for (int i = 0; i < 5; i++) {
-		scanf("%d %d",&option, &input);
-		if (option == 1)
-			head = insert_first(head, input);
-		
-		else {
-			int idx = 0;
-			scanf("%d", &idx);
-			Node* search = head;
-			head = insert(head,idx, input);
+	Node* tail = NULL;
+	Node* cur = NULL;
+
+	head = tail;	//head와 tail을 연결
+
+	for (int i = 0; i < 4; i++) {
+		if (head == NULL) {
+			char s[20] = { NULL, };
+			head = tail = (Node*)malloc(sizeof(Node));
+			i--;
 		}
 
-		print_list(head);
+		else {
+			char s[20] = { NULL, };
+			tail->next = (Node*)malloc(sizeof(Node));
+			printf("Name : ");
+			scanf("%s", tail->Name);
+
+			printf("Age : ");
+			scanf("%d", &tail->Age);
+
+			printf("Height : ");
+			scanf("%d", &tail->height);
+
+			tail = tail->next;
+			tail->next = NULL;
+		}
 	}
-}
+	
+	printf("\n---------------------------\n");
 
-
-Node* insert(Node* list, Node* pos, int item) {
-	Node* p = (Node*)malloc(sizeof(Node));
-	p->data = item;
-	p->link = pos->link;
-	pos->link = p;
-	return list;
-}
-
-Node* insert_first(Node* head, int item) {
-	Node* p = (Node*)malloc(sizeof(Node));
-	p->data = item;
-	p->link = head;
-	head = p;
-	return head;
-}
-void print_list(Node* head) {
-	while (head->link != NULL) {
-		printf("%d ", head->data);
-		head = head->link;
+	while (head->next != NULL) {
+		
+		printf("이름 : %s\n", head->Name);
+		printf("나이 : %d\n", head->Age);
+		printf("키 : %d\n", head->height);
+		printf("*************\n");
+		head = head->next;
 	}
-	printf("\n************\n");
 }
