@@ -60,7 +60,7 @@ void add(ArrayListType* L, element item)
 	}
 }
 
-element delete(ArrayListType* L, int pos)
+element del (ArrayListType* L, int pos)
 {
 	element item;
 
