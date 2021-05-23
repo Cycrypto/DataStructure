@@ -30,5 +30,8 @@
     <ClCompile Include="Circular List.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DoubleList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
