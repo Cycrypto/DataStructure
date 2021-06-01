@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Trav.cpp">
+    <ClCompile Include="Heap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Trev2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="boj_11725.c">
+    <ClCompile Include="HeapSort.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
