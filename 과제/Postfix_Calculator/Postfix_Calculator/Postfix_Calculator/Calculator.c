@@ -5,6 +5,7 @@
 #include <ctype.h>
 #include "stack.h"
 #include "tree.h"
+#include "treeStack.h"
 
 Stack* top;	//stack의 top 노드 지정을 위한 포인터 선언
 int isOperator(char c) {
@@ -115,7 +116,7 @@ void ShowPostOrder(Node* tree) {
 Tree* evalExpression(char *s) {
 	int opr1, opr2, value, i = 0;
 	Stack* stack = NULL;
-	StackInit(&stack);	//스택 생성
+	SInit(&stack);	//스택 생성
 
 	Tree* expTree = NULL;
 	top = NULL;
@@ -133,8 +134,8 @@ Tree* evalExpression(char *s) {
 			MakeLeftTree(expTree, StackPop(&stack));
 			expTree->data = s[i];
 		}
-		StackPush(&stack, expTree);
+		SPush(&stack, expTree);
 	}
-	return StackPop(&stack);	//스택에 트리가 저장됨.
+	return SPop(&stack);	//스택에 트리가 저장됨.
 }
 

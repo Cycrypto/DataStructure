@@ -1,42 +1,61 @@
 ﻿  Calculator.c
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(53,15): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(53,15): warning C4024: 'StackInit': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(58,27): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(58,27): warning C4024: 'Stack_empty': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(58,72): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(58,72): warning C4024: 'peek': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(60,32): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(60,32): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(63,17): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(63,17): warning C4024: 'StackPush': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(69,17): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(69,17): warning C4024: 'StackPush': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(75,22): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(75,22): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(81,23): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(81,23): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(95,30): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(95,30): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(118,18): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(118,18): warning C4024: 'StackInit': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(123,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(132,42): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(132,42): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(132,43): warning C4047: 'function': 'Tree *' differs in levels of indirection from 'Data'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(132,43): warning C4024: 'MakeRightTree': different types for formal and actual parameter 2
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,41): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,41): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,42): warning C4047: 'function': 'Tree *' differs in levels of indirection from 'Data'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,42): warning C4024: 'MakeLeftTree': different types for formal and actual parameter 2
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(136,19): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(136,19): warning C4024: 'StackPush': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(136,28): warning C4047: 'function': 'Data' differs in levels of indirection from 'Tree *'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(136,28): warning C4024: 'StackPush': different types for formal and actual parameter 2
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(138,24): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(138,24): warning C4024: 'StackPop': different types for formal and actual parameter 1
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(138,25): warning C4047: 'return': 'Tree *' differs in levels of indirection from 'Data'
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(116,18): warning C4101: 'value': unreferenced local variable
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(116,12): warning C4101: 'opr2': unreferenced local variable
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(116,6): warning C4101: 'opr1': unreferenced local variable
-C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(99): warning C4172: returning address of local variable or temporary: result
-  Postfix_Calculator.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Debug\Postfix_Calculator.exe
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\treeStack.h(10,15): error C2040: 'Data': 'Tree *' differs in levels of indirection from 'int'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\treeStack.h(13,1): error C2011: '_node': 'struct' type redefinition
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\stack.h(6): message : see declaration of '_node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\treeStack.h(24,19): error C2371: 'Stack': redefinition; different basic types
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\stack.h(13): message : see declaration of 'Stack'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(54,15): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(54,15): warning C4024: 'StackInit': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(59,27): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(59,27): warning C4024: 'Stack_empty': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(59,72): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(59,72): warning C4024: 'peek': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(61,32): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(61,32): warning C4024: 'StackPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(64,17): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(64,17): warning C4024: 'StackPush': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(70,17): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(70,17): warning C4024: 'StackPush': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(76,22): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(76,22): warning C4024: 'StackPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(82,23): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(82,23): warning C4024: 'StackPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(96,30): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(96,30): warning C4024: 'StackPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(119,14): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(119,14): warning C4024: 'SInit': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(124,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,42): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,42): warning C4024: 'StackPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,43): warning C4047: 'function': 'Tree *' differs in levels of indirection from 'Data'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(133,43): warning C4024: 'MakeRightTree': different types for formal and actual parameter 2
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(134,41): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(134,41): warning C4024: 'StackPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(134,42): warning C4047: 'function': 'Tree *' differs in levels of indirection from 'Data'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(134,42): warning C4024: 'MakeLeftTree': different types for formal and actual parameter 2
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(137,15): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(137,15): warning C4024: 'SPush': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(137,24): warning C4047: 'function': 'Data' differs in levels of indirection from 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(137,24): warning C4024: 'SPush': different types for formal and actual parameter 2
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(139,20): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(139,20): warning C4024: 'SPop': different types for formal and actual parameter 1
+  Stack.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Calculator.c(139,21): warning C4047: 'return': 'Tree *' differs in levels of indirection from 'Data'
+  TreeStack.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Stack.c(21,17): warning C4133: '=': incompatible types - from 'StackNode *' to 'Node *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\treeStack.h(10,15): error C2040: 'Data': 'Tree *' differs in levels of indirection from 'int'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\treeStack.h(16,3): error C2371: 'Node': redefinition; different basic types
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Tree.h(5): message : see declaration of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\TreeStack.c(22,11): error C2039: 'data': is not a member of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Tree.h(2): message : see declaration of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\TreeStack.c(23,11): error C2039: 'next': is not a member of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Tree.h(2): message : see declaration of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\TreeStack.c(38,24): error C2039: 'data': is not a member of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Tree.h(2): message : see declaration of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\TreeStack.c(41,31): error C2039: 'next': is not a member of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Tree.h(2): message : see declaration of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\TreeStack.c(54,23): error C2039: 'data': is not a member of 'Node'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Tree.h(2): message : see declaration of 'Node'
+  Generating Code...
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\TreeStack.c(54,27): warning C4033: 'SPeek' must return a value
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Calculator\Postfix_Calculator\Postfix_Calculator\Stack.c(40): warning C4715: 'peek': not all control paths return a value

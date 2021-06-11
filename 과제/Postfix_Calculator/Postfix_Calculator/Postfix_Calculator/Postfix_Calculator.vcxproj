@@ -126,12 +126,14 @@
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="stack.h" />
     <ClInclude Include="tree.h" />
+    <ClInclude Include="treeStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Calculator.c" />
     <ClCompile Include="Project_main.c" />
     <ClCompile Include="Stack.c" />
     <ClCompile Include="Tree.c" />
+    <ClCompile Include="TreeStack.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

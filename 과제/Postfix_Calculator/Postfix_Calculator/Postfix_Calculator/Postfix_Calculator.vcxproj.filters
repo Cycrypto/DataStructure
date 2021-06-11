@@ -24,6 +24,9 @@
     <ClInclude Include="Calculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="treeStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stack.c">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Project_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeStack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

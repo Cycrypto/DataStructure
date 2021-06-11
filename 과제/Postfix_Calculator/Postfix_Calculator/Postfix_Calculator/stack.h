@@ -10,10 +10,10 @@ typedef struct _node {
 
 typedef struct _stack {
 	StackNode* head;
-}Stack;
+}TreeStack;
 
-int Stack_empty(Stack*);
-void StackInit(Stack*);
-void StackPush(Stack*, Data);
-Data StackPop(Stack*);
-Data peek(Stack*);
+int Stack_empty(TreeStack*);
+void StackInit(TreeStack*);
+void StackPush(TreeStack*, Data);
+Data StackPop(TreeStack*);
+Data peek(TreeStack*);

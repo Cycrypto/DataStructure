@@ -1,0 +1,38 @@
+﻿  MainSoruce.c
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(41,11): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(41,11): warning C4024: 'SInit': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(46,24): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(46,24): warning C4024: 'SIsEmpty': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(46,70): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(46,70): warning C4024: 'SPeek': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(48,28): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(48,28): warning C4024: 'SPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(51,13): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(51,13): warning C4024: 'SPush': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(57,13): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(57,13): warning C4024: 'SPush': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(63,18): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(63,18): warning C4024: 'SPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(69,19): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(69,19): warning C4024: 'SPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(83,26): warning C4047: 'function': 'Stack *' differs in levels of indirection from 'Stack **'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(83,26): warning C4024: 'SPop': different types for formal and actual parameter 1
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(117,37): warning C4047: 'function': 'Tree *' differs in levels of indirection from 'Data'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(117,37): warning C4024: 'MakeRightTree': different types for formal and actual parameter 2
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(119,36): warning C4047: 'function': 'Tree *' differs in levels of indirection from 'Data'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(119,36): warning C4024: 'MakeLeftTree': different types for formal and actual parameter 2
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(123,22): warning C4047: 'function': 'Data' differs in levels of indirection from 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(123,22): warning C4024: 'SPush': different types for formal and actual parameter 2
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(126,21): warning C4047: 'return': 'Node *' differs in levels of indirection from 'Data'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(133,16): warning C4133: 'function': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(133,40): warning C4133: 'function': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(134,20): warning C4133: 'function': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(136,34): warning C4133: 'function': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(136,35): warning C4133: 'function': incompatible types - from 'Tree *' to 'Node *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(137,35): warning C4133: 'function': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(137,36): warning C4133: 'function': incompatible types - from 'Tree *' to 'Node *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(139,20): warning C4133: 'function': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(163,19): warning C4133: 'function': incompatible types - from 'Tree *' to 'Node *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(162,1): warning C4133: 'initializing': incompatible types - from 'Node *' to 'Tree *'
+C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\PostfixCalculator_Final\MainSoruce.c(87): warning C4172: returning address of local variable or temporary: result
+  PostfixCalculator_Final.vcxproj -> C:\Users\jh01l\Desktop\KPU\2학년\자료구조\과제\Postfix_Final\PostfixCalculator_Final\Debug\PostfixCalculator_Final.exe
