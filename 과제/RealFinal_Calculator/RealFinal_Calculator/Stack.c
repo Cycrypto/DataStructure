@@ -44,13 +44,3 @@ Data SPop(Stack* s)
 
 	return rdata;
 }
-
-Data SPeek(Stack* s)
-{
-	if (SIsEmpty(s)) {
-		printf("Stack Memory Error!");
-		exit(-1);
-	}
-
-	return s->head->data;
-}

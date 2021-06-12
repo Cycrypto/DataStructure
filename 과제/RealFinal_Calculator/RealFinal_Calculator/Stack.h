@@ -22,6 +22,4 @@ int SIsEmpty(Stack*);
 
 void SPush(Stack*, Data );
 Data SPop(Stack*);
-Data SPeek(Stack*);
-
 #endif

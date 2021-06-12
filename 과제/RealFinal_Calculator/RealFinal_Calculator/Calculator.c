@@ -13,7 +13,7 @@ int top = -1;
 
 void push(char item){
 	if (top >= SIZE - 1){
-		printf("\nStack Overflow.");
+		printf("\nOVERFLOW");
 	}
 	else{
 		top = top + 1;
@@ -21,12 +21,11 @@ void push(char item){
 	}
 }
 
-/* define pop operation */
 char pop(){
 	char item;
 
 	if (top < 0){
-		printf("stack under flow: invalid infix expression");
+		printf("UNDERFLOW");
 		getchar();
 		exit(1);
 	}
